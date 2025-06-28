@@ -19,6 +19,27 @@ header {
   text-align: center;
   border-radius: 8px;
 }
+.github-cards img {
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skills ul,
+.goals ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.projects a {
+  display: inline-block;
+  margin: 5px 0;
+  color: #2980b9;
+  text-decoration: none;
+}
+.projects a:hover {
+  text-decoration: underline;
+}
 
 
 
@@ -91,3 +112,4 @@ footer {
   color: white;
   border-radius: 8px;
 }
+
