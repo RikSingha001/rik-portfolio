@@ -10,12 +10,22 @@ body {
   color: #e0e0e0;
   line-height: 1.6;
   padding-bottom: 60px;
+  background-size: cover;
+      color: #e0e0e0;
+      animation: fadeIn 2s ease-in;
 }
-
-h1, h2, h3 {
-  color: #ffd700;
+  @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+ h2, h3 {
+  color: #00ffff;
 }
-
+    h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #ffd700;
+    }
 a {
   color: #00e5ff;
   text-decoration: none;
