@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rik Singha - Portfolio</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
     <div class="header-container">
-      <img src="pg.jpg" alt="Profile Picture" class="profile-pic"/>
+      <img src="pg.jpg" alt="Profile Picture" class="profile-pic" />
       <div>
         <h1>Rik Singha</h1>
         <p>Aspiring Java Backend Developer | Full Stack Learner</p>
       </div>
     </div>
+    <div class="nav-toggle" onclick="toggleMenu()">☰</div>
     <nav>
       <ul>
         <li><a href="#about">About Me</a></li>
@@ -31,37 +32,31 @@
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>
-        I'm Rik Singha, a self-taught full stack developer with strong skills in JavaScript and PHP. I have independently built a cab booking system using Next.js, featuring a vendor dashboard with role-based access for users, drivers, and vendors.
-        My journey in the tech world started with a curiosity for coding, and I've been on a continuous learning path ever since.
-        I'm currently passionate about learning Java backend development and exploring Spring Boot to strengthen my server-side development skills.
-      </p>
+      <p>I'm Rik Singha, a self-taught full stack developer with strong skills in JavaScript and PHP. I have independently built a cab booking system using Next.js, featuring a vendor dashboard with role-based access for users, drivers, and vendors.
+      My journey in the tech world started with a curiosity for coding, and I've been on a continuous learning path ever since.
+      I'm currently passionate about learning Java backend development and exploring Spring Boot to strengthen my server-side development skills.</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-
       <article>
         <h3>1. 🎮 Rock-Paper-Scissors Game (Vanilla JS)</h3>
         <p>A classic Rock-Paper-Scissors game built using plain JavaScript, HTML, and CSS.</p>
-        <a href="https://riksingha001.github.io/stone.pep/" rel="noopener noreferrer" target="_blank">Live Demo</a> |
-        <a href="https://github.com/RikSingha001/stone.pep"rel="noopener noreferrer" target="_blank">GitHub Repo</a>
+        <a href="https://riksingha001.github.io/stone.pep/"  rel="noopener noreferrer" target="_blank">Live Demo</a> |
+        <a href="https://github.com/RikSingha001/stone.pep"  rel="noopener noreferrer" target="_blank">GitHub Repo</a>
       </article>
-
       <article>
         <h3>2. 🧠 Tic-Tac-Toe Game</h3>
         <p>A fun and interactive Tic-Tac-Toe game using JavaScript and DOM manipulation.</p>
-        <a href="https://riksingha001.github.io/tic-tac-toe-game/"rel="noopener noreferrer" target="_blank">Live Demo</a> |
+        <a href="https://riksingha001.github.io/tic-tac-toe-game/" rel="noopener noreferrer" target="_blank">Live Demo</a> |
         <a href="https://github.com/RikSingha001/tic-tac-toe-game" rel="noopener noreferrer" target="_blank">GitHub Repo</a>
       </article>
-
       <article>
         <h3>3. 🔐 PHP Login System</h3>
         <p>A simple user login system built with raw PHP and MySQL.</p>
-        <a href="https://rik-singha-userlogin.rf.gd" rel="noopener noreferrer" target="_blank">Live Demo</a> |
-        <a href="https://github.com/RikSingha001/user_login" rel="noopener noreferrer" target="_blank">GitHub Repo</a>
+        <a href="https://rik-singha-userlogin.rf.gd"rel="noopener noreferrer" target="_blank">Live Demo</a> |
+        <a href="https://github.com/RikSingha001/user_login" rel="noopener noreferrer"  target="_blank">GitHub Repo</a>
       </article>
-
       <article>
         <h3>4. 🚖 Wonder Dashboard – Cab Booking Portal</h3>
         <p>A role-based booking system with Next.js, JWT Auth, and raw PHP backend.</p>
@@ -83,14 +78,10 @@
 
     <section id="education">
       <h2>Education & Experience</h2>
-      <h3>Education</h3>
       <ul>
         <li><strong>BCA (Pursuing)</strong> - Uttaranchal University (2024–Present)</li>
         <li><strong>12th</strong> - Completed in 2023</li>
         <li><strong>10th</strong> - Completed in 2018</li>
-      </ul>
-      <h3>Professional Experience</h3>
-      <ul>
         <li><strong>Pharmacy Assistant</strong> - Apollo Pharmacy (2022–2023)</li>
         <li><strong>Quality Manager</strong> - mPokket (2024)</li>
       </ul>
@@ -100,9 +91,9 @@
       <h2>Find Me Online</h2>
       <ul>
         <li><a href="https://github.com/RikSingha001" rel="noopener noreferrer" target="_blank">GitHub</a></li>
-        <li><a href="https://www.facebook.com/rik.singha.10" rel="noopener noreferrer" target="_blank">Facebook</a></li>
+        <li><a href="https://www.facebook.com/rik.singha.10"rel="noopener noreferrer"  target="_blank">Facebook</a></li>
         <li><a href="https://www.instagram.com/rik_singha_003" rel="noopener noreferrer" target="_blank">Instagram</a></li>
-        <li><a href="https://www.linkedin.com/in/rik-singha-90b316301"rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/rik-singha-90b316301" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
       </ul>
     </section>
 
@@ -111,13 +102,10 @@
       <form action="mailto:riksingha420@gmail.com" method="POST" enctype="text/plain">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
-
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required />
-
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
-
         <button type="submit">Send</button>
       </form>
     </section>
@@ -125,8 +113,13 @@
 
   <footer>
     <p>&copy; 2025 Rik Singha. All rights reserved.</p>
-    <p>📞 +91 62967 15873 | 📧 riksingha420@gmail.com | 📍 Bishnupur, Bankura, WB </p>
+    <p>📞 +91 62967 15873 | 📧 riksingha420@gmail.com | 📍 Bishnupur, Bankura, WB</p>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('nav ul').classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
-
