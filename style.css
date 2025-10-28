@@ -13,6 +13,52 @@
             --glass-border: rgba(255, 255, 255, 0.1);
             --shadow-color: rgba(0, 212, 255, 0.15);
         }
+.private-repo {
+  color: var(--text-secondary);
+  font-style: italic;
+  display: inline-block;
+}
+.certifications-section {
+  margin-top: 4rem;
+}
+
+.certifications-title {
+  text-align: center;
+  color: var(--accent-color);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+/* Download CV Section */
+.download-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.download-title {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.download-subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.download-cv {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.download-cv:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
 
         * {
             margin: 0;
